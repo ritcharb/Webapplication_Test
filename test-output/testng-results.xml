@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-04T10:54:29 CEST" name="Suite" finished-at="2020-09-04T10:54:58 CEST" duration-ms="28284">
+    <groups>
+    </groups>
+    <test started-at="2020-09-04T10:54:29 CEST" name="Test" finished-at="2020-09-04T10:54:58 CEST" duration-ms="28284">
+      <class name="test.SalesPageValidation3">
+        <test-method is-config="true" signature="initialtrig()[pri:0, instance:test.SalesPageValidation3@1a1d6a08]" started-at="2020-09-04T10:54:36 CEST" name="initialtrig" finished-at="2020-09-04T10:54:43 CEST" duration-ms="6844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialtrig -->
+        <test-method signature="FilterChck()[pri:0, instance:test.SalesPageValidation3@1a1d6a08]" started-at="2020-09-04T10:54:50 CEST" name="FilterChck" finished-at="2020-09-04T10:54:58 CEST" duration-ms="7547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterChck -->
+        <test-method is-config="true" signature="drop()[pri:0, instance:test.SalesPageValidation3@1a1d6a08]" started-at="2020-09-04T10:54:58 CEST" name="drop" finished-at="2020-09-04T10:54:58 CEST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+      </class> <!-- test.SalesPageValidation3 -->
+      <class name="test.FormValidationCheck">
+        <test-method is-config="true" signature="initialtrig()[pri:0, instance:test.FormValidationCheck@fad74ee]" started-at="2020-09-04T10:54:29 CEST" name="initialtrig" finished-at="2020-09-04T10:54:36 CEST" duration-ms="6919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialtrig -->
+        <test-method signature="ValidationCheckLogin()[pri:1, instance:test.FormValidationCheck@fad74ee]" started-at="2020-09-04T10:54:43 CEST" name="ValidationCheckLogin" finished-at="2020-09-04T10:54:45 CEST" duration-ms="2084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidationCheckLogin -->
+        <test-method signature="RequiredFieldCheck()[pri:2, instance:test.FormValidationCheck@fad74ee]" started-at="2020-09-04T10:54:45 CEST" name="RequiredFieldCheck" finished-at="2020-09-04T10:54:50 CEST" duration-ms="4773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequiredFieldCheck -->
+        <test-method is-config="true" signature="drop()[pri:0, instance:test.FormValidationCheck@fad74ee]" started-at="2020-09-04T10:54:58 CEST" name="drop" finished-at="2020-09-04T10:54:58 CEST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+      </class> <!-- test.FormValidationCheck -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
