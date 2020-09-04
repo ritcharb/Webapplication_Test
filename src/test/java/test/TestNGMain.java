@@ -12,7 +12,7 @@ public class TestNGMain {
 	    TestListenerAdapter tla = new TestListenerAdapter();
 	    TestNG testng = new TestNG();
 	    List<String> suites = Lists.newArrayList();
-	    suites.add("C:\\Users\\Ar_Richya\\eclipse-workspaceNew\\E2EProject\\testng.xml");//path to xml..
+	    suites.add("testng.xml");//path to xml..
 	    testng.setTestSuites(suites);
 	    testng.run();
 	}
